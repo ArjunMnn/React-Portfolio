@@ -24,7 +24,7 @@ function Profiles() {
             </a>
           </div>
           <div className="column">
-            <a href="https://leetcode/arjunmnn/">
+            <a href="https://leetcode.com/arjunmnn/">
               <img src={leetcode} alt="Snow" style={{ width: "100%" }}></img>
             </a>
           </div>
@@ -34,7 +34,7 @@ function Profiles() {
             </a>
           </div>
           <div className="column">
-            <a href="https://www.interviewbit.com/arjunmnn7_16adddd78141">
+            <a href="https://www.interviewbit.com/profile/arjunmnn7">
               <img
                 src={interviewbit}
                 alt="Snow"

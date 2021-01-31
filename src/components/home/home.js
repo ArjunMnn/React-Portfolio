@@ -1,14 +1,6 @@
 import React from "react";
 
 function Home() {
-  function dropdownmenu() {
-    var x = document.getElementById("glitchy");
-    if (x.className === "cursor-pointer") {
-      x.className = "glitch cursor-pointer";
-    } else {
-      x.className = "cursor-pointer";
-    }
-  }
   return (
     <div>
       <div className="full-stack">
@@ -41,9 +33,9 @@ function Home() {
                   data-tip="true"
                   data-for="hero-true"
                   class="cursor-pointer"
-                  data-text="I wrItE CodE_"
+                  data-text="i write code"
                   currentitem="false"
-                  onClick={dropdownmenu}
+                  
                 >
                   i write code
                   <span className="blinking">_</span>
